@@ -37,7 +37,7 @@ console.log(john.introduce());`}</code>
         </pre>
       </main>
 
-      <nav className={styles.navigation}>
+      <nav className={styles.navigation} style={{marginBottom: '10rem'}}>
         <Link to="/"><PrevButton /></Link>
         <Link to="/super"><NextButton /></Link>
       </nav>
