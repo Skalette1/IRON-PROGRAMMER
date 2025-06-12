@@ -76,6 +76,7 @@ button:hover {
   word-wrap: break-word;
 }
 
+
 @media (max-width: 480px) {
   .mainContainer {
     padding: 1rem;

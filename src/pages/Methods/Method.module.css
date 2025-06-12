@@ -54,6 +54,13 @@
   z-index: 10; 
 }
 
+.navigation a {
+  text-decoration: none !important;
+  color: inherit !important;
+  outline: none !important;
+  border: none !important;
+}
+
 @media (max-width: 480px) {
   .methodContainer {
     padding: 1.2rem;

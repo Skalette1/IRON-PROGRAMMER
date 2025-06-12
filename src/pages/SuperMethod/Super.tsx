@@ -31,7 +31,6 @@ class Dog extends Animal {
   }
 }`}</code>
         </pre>
-{/* //. */}
         <p className={styles.description}>
           In the example above, <code>super(name)</code> calls the constructor of <code>Animal</code>. It must be called before using <code>this</code>.
         </p>
@@ -41,9 +40,7 @@ class Dog extends Animal {
         <Link to="/method">
           <PrevButton />
         </Link>
-        <Link to="/methods/extends">
           <NextButton />
-        </Link>
       </div>
     </div>
   );
