@@ -9,19 +9,19 @@ export const SuperMethod = () => {
   return (
     <div className={styles.methodPage}>
       <div className={styles.methodContainer}>
-        <h1 className={styles.title}>super Keyword</h1>
+        <h1 className={styles.title}>Ключевое слово <code>super</code></h1>
 
         <p className={styles.description}>
-          <code>super</code> is used in subclasses to call the parent class’s constructor or methods.
+          <code>super</code> используется в подклассах для вызова конструктора или методов родительского класса.
         </p>
-
+              <h2 className={styles.subheading}>Пример</h2>
         <pre className={styles.codeBlock}>
           <code>{`class Animal {
   constructor(name) {
     this.name = name;
   }
   speak() {
-    return this.name + ' makes a sound';
+    return this.name + ' издаёт звук';
   }
 }
 
@@ -31,16 +31,17 @@ class Dog extends Animal {
   }
 }`}</code>
         </pre>
+
         <p className={styles.description}>
-          In the example above, <code>super(name)</code> calls the constructor of <code>Animal</code>. It must be called before using <code>this</code>.
+          В приведённом примере <code>super(name)</code> вызывает конструктор класса <code>Animal</code>. Этот вызов должен быть сделан до использования <code>this</code>.
         </p>
       </div>
 
-      <div className={styles.navigation}>
+      <div className={styles.navigation} style={{marginTop: '1rem'}}>
         <Link to="/method">
           <PrevButton />
         </Link>
-          <NextButton />
+        <NextButton />
       </div>
     </div>
   );

@@ -28,9 +28,9 @@ export const MainPage = () => {
 
       <div className={styles.mainContainer}>
         <p>
-          A class in JavaScript is a blueprint for creating objects with shared properties and methods.
-          Classes were introduced in ES6 (2015) and offer a cleaner, more familiar syntax for object-oriented programming (OOP), compared to traditional prototype-based inheritance.
+       Класс в JavaScript — это шаблон (или "чертёж") для создания объектов с общими свойствами и методами. Классы были введены в стандарте ES6 (ECMAScript 2015) и предоставляют более чистый, удобочитаемый и привычный синтаксис для объектно-ориентированного программирования (OOP) по сравнению с традиционной прототипной моделью наследования.
         </p>
+          <h2 className={styles.subheading}>Пример</h2>
         <pre>
           <code>
 {`class Person {

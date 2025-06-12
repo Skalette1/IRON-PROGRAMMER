@@ -64,6 +64,12 @@ button:hover {
   background-color: rgb(6, 54, 30);
 }
 
+.subheading {
+  color: #ffd700;
+  font-size: 1.4rem;
+  margin: 1.5rem 0 1rem;
+}
+
 .output {
   margin-top: 1.5rem;
   padding: 1rem;
@@ -89,4 +95,9 @@ button:hover {
   button {
     font-size: 0.9rem;
   }
+  
+  .subheading {
+    font-size: 1.2rem;
+  }
+
 }

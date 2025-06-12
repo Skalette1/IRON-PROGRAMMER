@@ -10,14 +10,15 @@ export const Method = () => {
   return (
     <div className={styles.methodPage}>
       <main className={styles.methodContainer}>
-        <h1 className={styles.title}>Constructor Method</h1>
+        <h1 className={styles.title}>Методы</h1>
 
         <p className={styles.description}>
-          The <code>constructor</code> is a special method used to initialize a newly created object from a class.
-          It is automatically invoked when you create a new instance using the <code>new</code> keyword.
+         Метод `<code>constructor</code>` — это специальный метод, используемый для инициализации вновь созданного объекта на основе класса.
+Он автоматически вызывается при создании нового экземпляра с помощью ключевого слова `<code>new</code>`.
+
         </p>
 
-        <h2 className={styles.subheading}>Example</h2>
+        <h2 className={styles.subheading}>Пример</h2>
 
         <pre className={styles.codeBlock}>
           <code>{`class Person {
