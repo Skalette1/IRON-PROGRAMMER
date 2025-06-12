@@ -91,7 +91,7 @@ user.greet();`})}),re.jsx("button",{onClick:f,children:"Run Example"}),i&&re.jsx
 }
 
 const john = new Person('John', 30);
-console.log(john.introduce());`})})]}),re.jsxs("nav",{className:Rt.navigation,children:[re.jsx(Dn,{to:"/",children:re.jsx(Vf,{})}),re.jsx(Dn,{to:"/super",children:re.jsx(Zf,{})})]})]}),f1=()=>re.jsxs("div",{className:Rt.methodPage,children:[re.jsxs("div",{className:Rt.methodContainer,children:[re.jsxs("h1",{className:Rt.title,children:["Ключевое слово ",re.jsx("code",{children:"super"})]}),re.jsxs("p",{className:Rt.description,children:[re.jsx("code",{children:"super"})," используется в подклассах для вызова конструктора или методов родительского класса."]}),re.jsx("h2",{className:Rt.subheading,children:"Пример"}),re.jsx("pre",{className:Rt.codeBlock,children:re.jsx("code",{children:`class Animal {
+console.log(john.introduce());`})})]}),re.jsxs("nav",{className:Rt.navigation,style:{marginBottom:"10rem"},children:[re.jsx(Dn,{to:"/",children:re.jsx(Vf,{})}),re.jsx(Dn,{to:"/super",children:re.jsx(Zf,{})})]})]}),f1=()=>re.jsxs("div",{className:Rt.methodPage,children:[re.jsxs("div",{className:Rt.methodContainer,children:[re.jsxs("h1",{className:Rt.title,children:["Ключевое слово ",re.jsx("code",{children:"super"})]}),re.jsxs("p",{className:Rt.description,children:[re.jsx("code",{children:"super"})," используется в подклассах для вызова конструктора или методов родительского класса."]}),re.jsx("h2",{className:Rt.subheading,children:"Пример"}),re.jsx("pre",{className:Rt.codeBlock,children:re.jsx("code",{children:`class Animal {
   constructor(name) {
     this.name = name;
   }
