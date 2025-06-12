@@ -1,0 +1,19 @@
+
+.routerButton button {
+  color: rgb(255, 255, 255);
+  background-color: #292828;
+  font-size: 2rem;
+  font-weight: 1000;
+  padding: .8rem 3rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: .4s all ease-in-out;
+}
+
+.routerButton button:hover {
+  color: springgreen;
+  border: 1px solid springgreen;
+}

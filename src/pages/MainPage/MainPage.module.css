@@ -1,0 +1,91 @@
+
+.mainPage {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  max-width: 600px;
+  width: 90vw;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 0.3);
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  color: springgreen;
+  text-align: left;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1.5rem;
+  user-select: text;
+}
+
+pre {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  font-family: 'Source Code Pro', monospace;
+  user-select: text;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: springgreen;
+  border: none;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  color: springgreen;
+  background-color: rgb(6, 54, 30);
+}
+
+.output {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #dff0d8;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #3c763d;
+  user-select: text;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
